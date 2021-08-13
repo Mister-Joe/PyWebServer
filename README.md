@@ -5,4 +5,4 @@ A bare-bones web server written with Python.
 
 ## How does it work?
 
-PyWebServer utilizes sockets to accept connections over TCP. As of right now, PyWebServer is capable of parsing basic HTTP GET requests and responding with the requested resource, if available.
+PyWebServer utilizes sockets to accept connections over TCP. As of right now, PyWebServer is multi-processed application capable of asynchronously parsing basic HTTP GET requests and responding with the requested resource(s), if available.
