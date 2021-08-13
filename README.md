@@ -1,4 +1,8 @@
 # PyWebServer
-A simplified web server written with Python.
+A bare-bones web server written with Python.
 
-This web server is tested and working with Python 3.7 on Windows 10. I wouldn't advise using this in any sort of production capacity, but it is a fun bare-bones template of a web server that can be expanded and improved upon.
+**Note:** This web server is tested and working with Python 3.7 on Windows 10. I wouldn't advise using this in any sort of production capacity. There are probably critical bugs in this application.
+
+## How does it work?
+
+PyWebServer utilizes sockets to accept connections over TCP. As of right now, PyWebServer is capable of parsing basic HTTP GET requests and responding with the requested resource, if available.
